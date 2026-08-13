@@ -1,0 +1,23 @@
+﻿# Python environment and cache
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Raw biosignal datasets
+data/raw/
+*.pkl
+*.zip
+
+# Generated feature files
+data/*_features.csv
+
+# Model outputs
+outputs/
+*.joblib
+
+# IDE and Windows files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
